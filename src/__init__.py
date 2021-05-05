@@ -4,4 +4,5 @@ from . import spinbox
 from . import tabs
 from . import dialogs
 from . import resources
+from . import layouts
 
