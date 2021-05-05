@@ -22,5 +22,6 @@ class HorizontalGroup(QHBoxLayout, Group):
 
 class VerticalGroup(QVBoxLayout, Group):
     def __init__(self, *widgets, parent=None):
-        super().__init__(self, *widgets)
         super().__init__(self, parent)
+        super().__init__(self, *widgets)
+        
